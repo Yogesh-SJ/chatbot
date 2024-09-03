@@ -1,26 +1,26 @@
-Q&A System Using Google Palm and LangChain
+# 🎙Q&A System Using Google Palm and LangChain
 
 This project is a Q&A system that leverages Google Palm and LangChain to provide instant answers to user questions. It is designed to be efficient and user-friendly, reducing the need for manual responses by using a pre-built knowledge base of FAQs. The system offers a simple Streamlit-based interface where users can easily interact and receive quick answers.
 
-Features:
+## Features:
 FAQ-Based Knowledge Base: Load and process real FAQs from a CSV file.
 Vector Database: Utilize FAISS with Huggingface embeddings for efficient data retrieval.
 Streamlit Interface: A clean and simple UI for users to input questions and get responses instantly.
 Google Palm LLM: Use Google's language model to generate accurate answers.
 
-Usage:
+## Usage:
 Clone the repository and install dependencies (pip install -r requirements.txt).
 Add your Google API key to the .env file.
 Run the app with streamlit run main.py.
 Click "Create Knowledgebase" to build the vector database.
 Input your questions in the app and get instant answers.
 
-Project Structure:
+## Project Structure:
 main.py: Streamlit application script.
 langchain_helper.py: LangChain logic and vector database management.
 requirements.txt: Python dependencies.
 
-Learn From and Credits
+## Learn From and Credits
 This project is inspired by and credits go to the Codebasics YouTube channel. Check out their content to learn more about projects like this.
 
 
